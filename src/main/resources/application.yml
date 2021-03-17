@@ -1,0 +1,7 @@
+spring:
+  main:
+    banner-mode: off
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/project_database?currentSchema=products_schema
+    username: db_user
+    password: db_password
